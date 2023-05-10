@@ -1,0 +1,143 @@
+
+/* -------------------------------------------ipad---------------------------- */
+@media (max-width:800px) {
+    nav{
+        padding: 15px 20px;
+        /* background-color: black; */
+    }
+    #menu-btn{
+        display: initial;
+        font-size: 2.5rem;
+      }
+    
+    
+      nav .navigation ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: -500px;
+        width: 350px;
+        background-color: rgba(17, 20, 104, 0.85);
+        backdrop-filter: blur(4.5px);
+        height: 100vh;
+        justify-content: flex-start;
+        /* align-items: flex-start; */
+        transition: all 0.5s ease;
+      }
+      nav .navigation ul.active{
+        right: 0;
+      }
+      nav .navigation ul li{
+        padding: 50px 0 20px 40px;
+        margin-left: 0;
+      }
+      nav .navigation ul li a{
+        color: white;
+        font-size: 25px;
+      }
+        #menu-close {
+            display: initial;
+            color: #ffff;
+            font-size: 2rem;
+            padding: 22px 304px 20px 17px;
+        }
+
+      
+      #home p {
+        width: 90%;
+    }
+    #features {
+        padding: 8vw 4vw 0 4vw;
+        
+    }
+    #Gallery {
+        padding: 9vw 9vw 0 7vw;
+ 
+    }
+    #registration {
+        padding: 6vw 4vw 6vw 4vw;
+
+    }
+    #registration .reminder .time {
+        margin-top: 14px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+/* -----------------------------------------------------iphone------------------------------- */
+@media (max-width:475px){
+    #registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #registration {
+        
+        margin-top: 45px;
+        height: 100vh;
+        padding-top: 70px;
+       
+      }
+      #registration .reminder h1 {
+        color: #fff;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+    #registration .reminder .time .date {
+        padding: 9px 22px;
+        margin: 0 5px 15px 2px;
+        font-size: 1rem;
+    }
+    #Gallery p {
+        width: 90%;
+        color: rgb(70, 70, 87);
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+        line-height: 20px;
+    }
+    #home h4 {
+        padding-top: 90px;
+        font-size: 1.2rem;
+        /* letter-spacing: 1px; */
+    }
+    #home h2 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+    #home p {
+        width: 95%;
+        font-size: 0.7rem;
+        /* letter-spacing: 0.7px; */
+        line-height: 20px;
+    }
+    #experts h2 {
+        /* color: #000000; */
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+    #experts h4 {
+        font-size: 1rem;
+        margin-top: 45px;
+    }
+    #experts h4 {
+
+        margin-top: 0px;
+    }
+    #experts h2 {
+        font-size: 1.5rem;
+    }
+    #experts .expert-box .profile img {
+        width: 220px;
+        height: 220px;
+        
+    }
+    #experts .expert-box .profile i {
+        font-size: 1rem;
+        margin: 1px;
+        padding: 15px;
+    }
+}
